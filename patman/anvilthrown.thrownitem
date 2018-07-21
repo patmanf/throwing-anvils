@@ -1,0 +1,30 @@
+{
+  "itemName" : "anvilthrown",
+  "price" : 50,
+  "rarity" : "Essential",
+  "category" : "throwableItem",
+  "inventoryIcon" : "anvilthrown.png",
+  "image" : "anvilthrown.png",
+  "shortdescription" : "Throwing Anvil",
+  "description" : "yes good idea",
+
+  "ammoUsage" : 0,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "throwinganvil",
+  "projectileConfig" : {
+    "speed" : 25,
+    "power" : 40,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}
