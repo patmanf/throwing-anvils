@@ -3,7 +3,7 @@
     { "item" : "ironbar", "count" : 10 }
   ],
   "output" : {
-    "item" : "anvilthrown",
+    "item" : "pat_throwinganvil",
     "count" : 1
   },
   "groups" : [ "plain", "all" ]

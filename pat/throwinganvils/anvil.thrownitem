@@ -1,23 +1,21 @@
 {
-  "itemName" : "anvilthrown",
+  "itemName" : "pat_throwinganvil",
   "price" : 50,
   "rarity" : "Essential",
   "category" : "throwableItem",
-  "inventoryIcon" : "anvilthrown.png",
-  "image" : "anvilthrown.png",
+  "inventoryIcon" : "icon.png",
+  "image" : "anvil.png",
   "shortdescription" : "Throwing Anvil",
   "description" : "yes good idea",
 
   "ammoUsage" : 0,
 
   "edgeTrigger" : true,
-  "windupTime" : 0.0,
+  "windupTime" : 0,
   "cooldown" : 0.4,
 
-  "projectileType" : "throwinganvil",
+  "projectileType" : "pat_throwinganvil",
   "projectileConfig" : {
-    "speed" : 25,
-    "power" : 40,
     "periodicActions" : [
       {
         "time" : 0,

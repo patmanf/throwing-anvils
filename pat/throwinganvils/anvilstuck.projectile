@@ -1,0 +1,14 @@
+{
+  "projectileName" : "pat_throwinganvilstuck",
+  "image" : "anvil.png",
+  "timeToLive" : 5,
+	"speed" : 10,
+  "flippable" : false,
+	"onlyHitTerrain" : true,
+  "damageType" : "NoDamage",
+	"movementSettings" : {
+		"gravityMultiplier" : 2,
+		"stickyCollision" : true,
+		"stickyForce" : 20
+	}
+}
