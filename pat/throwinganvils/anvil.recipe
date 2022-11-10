@@ -1,10 +1,7 @@
 {
   "input" : [
-    { "item" : "ironbar", "count" : 10 }
+    ["ironbar", 10]
   ],
-  "output" : {
-    "item" : "pat_throwinganvil",
-    "count" : 1
-  },
-  "groups" : [ "plain", "all" ]
+  "output" : "pat_throwinganvil",
+  "groups" : [ "craftinganvil", "consumables", "all" ]
 }
